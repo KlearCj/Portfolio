@@ -1,17 +1,15 @@
 import { extendTheme } from "@chakra-ui/react";
-import { mode } from '@chakra-ui/theme-tools';
-
 
 const theme = extendTheme({
   styles: {
-    global:(props)=>({
+    global:{
       body: {
         margin: 0,
         "font-family":
           "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif",
         "-webkit-font-smoothing": "antialiased",
         "-moz-osx-font-smoothing": "grayscale",
-        bg: mode('#DCD6F7', '#250227')(props)
+        bg:'#4E455E'
       },
       code: {
         " font-family":
@@ -23,8 +21,8 @@ const theme = extendTheme({
         lg: "990px",
         xl: "1200px",
         xxl: "1536px",
-      }
-    })}
+      },
+    }}
     })
 
 export default theme;

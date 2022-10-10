@@ -1,0 +1,13 @@
+{
+"tech": [
+    {"name": "HTML", "logo":"https://cdn-icons-png.flaticon.com/512/174/174854.png" },
+    {"name": "CSS", "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" },
+    {"name": "JAVASCRIPT", "logo":"https://logospng.org/download/javascript/logo-javascript-icon-1024.png" },
+    {"name": "NODE", "logo":"https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" },
+    {"name": "GIT", "logo":"https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" },
+    {"name": "POSTGRESQL", "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" },
+    {"name": "MONGODB", "logo":"https://trainosys.com/wp-content/uploads/2020/07/359589_preview.png" },
+    {"name": "REACT", "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" },
+    {"name": "NEXT", "logo":"https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/nextjs-boilerplate-logo.png" }
+]
+}
