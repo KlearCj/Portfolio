@@ -13,7 +13,7 @@ const AboutMe = () => {
        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsa enim distinctio nam ab atque! Earum rem quae omnis architecto praesentium vel perspiciatis, aut fugit odio quod recusandae harum repellendus?
       </Heading>
       <Flex w="100%" justifyContent="center" alignItems="center">
-      <Flex w={{base:"100%", sm:"50%", md:"40%"}}>
+      <Flex w={{base:"100%", sm:"50%", md:"40%", lg:"30%"}}>
         <Lottie loop animationData={catJson} play />
       </Flex>
       </Flex>
