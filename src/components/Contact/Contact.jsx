@@ -67,7 +67,7 @@ const Contact = () => {
   }
 
   return (
-    <Box>
+    <Box id="contact">
       <Heading size="lg" color="#8878BA" pl="10px">
         Contact
       </Heading>

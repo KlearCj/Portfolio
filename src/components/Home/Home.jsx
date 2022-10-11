@@ -1,6 +1,7 @@
 import { Flex, Heading } from "@chakra-ui/react";
 import Lottie from "react-lottie-player";
 import lottieJson from "./75968-pink-hair-girl-01.json";
+import {Github, LinkedIn} from '../../assets/Icons'
 
 const Home = () => {
   return (
@@ -25,6 +26,10 @@ const Home = () => {
         <Heading size='lg' color="#CFC9E3">
          Fullstack Developer
         </Heading>
+      </Flex>
+      <Flex>
+        <LinkedIn />
+        <Github />
       </Flex>
     </Flex>
   );
