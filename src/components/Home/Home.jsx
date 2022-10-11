@@ -10,7 +10,7 @@ const Home = () => {
       width="100%"
       direction={{ base: "column", sm: "row" }}
       pb="20px"
-      pt="25px"
+      pt="35px"
     >
       <Flex display={{ base: "none", md: "flex" }} /* pos="absolute" */ h="300px">
         <Lottie loop animationData={lottieJson} play />
