@@ -79,7 +79,7 @@ const Contact = () => {
       >
         <Box className="box">
           <Box>
-            <Text>LET'S TALK</Text>
+            <Text as='h3'color='#ffffff' >LET'S TALK</Text>
           </Box>
           <Formik
             initialValues={{ name: "", email: "", message}}
@@ -98,7 +98,7 @@ const Contact = () => {
                       pb="5px"
                       isInvalid={form.errors.name && form.touched.name}
                     >
-                      <FormLabel>Name</FormLabel>
+                      <FormLabel color='#ffffff'>Name</FormLabel>
                       <Input {...field} placeholder="Name" />
                       <FormErrorMessage>{form.errors.name}</FormErrorMessage>
                     </FormControl>
@@ -110,13 +110,13 @@ const Contact = () => {
                       pb="5px"
                       isInvalid={form.errors.email && form.touched.email}
                     >
-                      <FormLabel>Email</FormLabel>
+                      <FormLabel color='#ffffff'>Email</FormLabel>
                       <Input {...field} placeholder="Email" />
                       <FormErrorMessage>{form.errors.email}</FormErrorMessage>
                     </FormControl>
                   )}
                 </Field>
-                <Text>Message</Text>
+                <Text color='#ffffff'>Message</Text>
                 <Textarea
                   name="message"
                   value={message}

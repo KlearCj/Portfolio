@@ -1,7 +1,7 @@
 import "../../global.css";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { Box, Button, ButtonGroup, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, Flex, useDisclosure } from "@chakra-ui/react";
-
+import { Box, Button, ButtonGroup, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, Flex, Image, useDisclosure } from "@chakra-ui/react";
+import Logo from '../../assets/logo.png'
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()

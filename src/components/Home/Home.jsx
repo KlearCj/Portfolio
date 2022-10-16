@@ -1,7 +1,8 @@
-import { Flex, Heading } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading } from "@chakra-ui/react";
 import Lottie from "react-lottie-player";
 import lottieJson from "./75968-pink-hair-girl-01.json";
 import {Github, LinkedIn} from '../../assets/Icons'
+import cv from './Klear_Resume.pdf'
 
 const Home = () => {
   return (
@@ -27,10 +28,15 @@ const Home = () => {
          Fullstack Developer
         </Heading>
       </Flex>
-      <Flex>
-        <LinkedIn />
-        <Github />
-      </Flex>
+      <Box pl="20px" pt='5px'>
+        <a download href={cv} >
+        <Button className='button' size='sm'>
+      Download CV
+        </Button>
+        </a>
+      {/*   <LinkedIn />
+        <Github /> */}
+      </Box>
     </Flex>
   );
 };
