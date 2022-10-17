@@ -67,8 +67,8 @@ const Contact = () => {
   }
 
   return (
-    <Box id="contact">
-      <Heading size="lg" color="#8878BA" pl="10px">
+    <Box id="contact" w={{lg:"80%"}} pl={{lg:"350px"}}>
+      <Heading size={{base:"lg", lg:"xl"}} color="#8878BA" pl="10px">
         Contact
       </Heading>
       <Flex
@@ -79,7 +79,7 @@ const Contact = () => {
       >
         <Box className="box">
           <Box>
-            <Text as='h3'color='#ffffff' >LET'S TALK</Text>
+            <Text as='h3'color='#ffffff'>LET'S TALK</Text>
           </Box>
           <Formik
             initialValues={{ name: "", email: "", message}}
@@ -99,7 +99,7 @@ const Contact = () => {
                       isInvalid={form.errors.name && form.touched.name}
                     >
                       <FormLabel color='#ffffff'>Name</FormLabel>
-                      <Input {...field} placeholder="Name" />
+                      <Input {...field} placeholder="Name" color='#ffffff'/>
                       <FormErrorMessage>{form.errors.name}</FormErrorMessage>
                     </FormControl>
                   )}
@@ -111,13 +111,14 @@ const Contact = () => {
                       isInvalid={form.errors.email && form.touched.email}
                     >
                       <FormLabel color='#ffffff'>Email</FormLabel>
-                      <Input {...field} placeholder="Email" />
+                      <Input {...field} placeholder="Email" color='#ffffff'/>
                       <FormErrorMessage>{form.errors.email}</FormErrorMessage>
                     </FormControl>
                   )}
                 </Field>
                 <Text color='#ffffff'>Message</Text>
                 <Textarea
+                  color='#ffffff'
                   name="message"
                   value={message}
                   onChange={handleInputChange}

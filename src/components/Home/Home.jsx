@@ -9,34 +9,35 @@ const Home = () => {
     <Flex
       id="home"
       pos="relative"
-      width="100%"
+      width={{base:"100%", lg:"80%"}}
+      ml={{lg:"200px"}}
       direction={{ base: "column", sm: "row" }}
       pb="20px"
       pt="35px"
     >
-      <Flex display={{ base: "none", md: "flex" }} /* pos="absolute" */ h="300px">
+      <Flex display={{ base: "none", md: "flex" }}  /* pos="absolute" */ h={{lg:"500px"}}>
         <Lottie loop animationData={lottieJson} play />
       </Flex>
-      <Flex pt="40px" pl="15px" alignItems="start" direction="column">
-        <Heading size="md" color="#242026">
+      <Flex pt={{base:"40px", lg:"100px"}} pl="15px" alignItems="start" direction="column">
+        <Heading size={{base:"md", lg:"lg"}} color="#242026">
           Hi, I am
         </Heading>
-        <Heading size='2xl' color="#8F7CEC">
+        <Heading size={{base:'2xl', lg:"4xl"}} color="#8F7CEC">
           Klear Madera
         </Heading>
-        <Heading size='lg' color="#CFC9E3">
+        <Heading size={{base:'lg', lg:"2xl" }}color="#CFC9E3">
          Fullstack Developer
         </Heading>
-      </Flex>
       <Box pl="20px" pt='5px'>
         <a download href={cv} >
-        <Button className='button' size='sm'>
+        <Button className='button' size={{base:'sm', lg:'lg'}}>
       Download CV
         </Button>
         </a>
       {/*   <LinkedIn />
         <Github /> */}
       </Box>
+      </Flex>
     </Flex>
   );
 };
