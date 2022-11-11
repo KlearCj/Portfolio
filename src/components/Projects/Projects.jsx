@@ -1,4 +1,4 @@
-import { Flex, Box, Heading, Grid, GridItem, Image } from "@chakra-ui/react";
+import { Flex, Box, Heading, Grid, GridItem} from "@chakra-ui/react";
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
              textDecoration: 'underline',
          }}>
           <Flex w="100%">
-         <video src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1" autoPlay />
+         I'm working on this
           </Flex>
         </GridItem>
       </Grid>

@@ -32,12 +32,12 @@ const Contact = () => {
         duration: 2000,
         isClosable: true,
       });
-  /* emailjs.sendForm('service_j32xm0k', 'template_g54ljys', form.current, '0Y5K2H_PZPEuDWOwm')
+  emailjs.sendForm('service_j32xm0k', 'template_g54ljys', form.current, '0Y5K2H_PZPEuDWOwm')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
-      }); */
+      });
     setMessage("");
     return toast({
       title: "Message sent successfully",

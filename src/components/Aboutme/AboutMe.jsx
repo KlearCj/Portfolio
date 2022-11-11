@@ -9,8 +9,7 @@ const AboutMe = () => {
        About me
       </Heading>
       <Heading size={{base:"md", lg:"lg" }}color="#CFC9E3" p="10px">
-       I'm an animal lover. A girl who loves challenges
-       Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsa enim distinctio nam ab atque! Earum rem quae omnis architecto praesentium vel perspiciatis, aut fugit odio quod recusandae harum repellendus?
+      I am a unique, fun and adventurous software developer and animal lover. Graduated from Plataforma5, with the solid technical background and incredible soft skills I acquired there, I am ready for my first work experience in the IT world and to keep learning new technologies.
       </Heading>
       <Flex w="100%" justifyContent="center" alignItems="center">
       <Flex w={{base:"100%", sm:"50%", md:"40%"}}>

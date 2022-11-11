@@ -1,8 +1,8 @@
 import { Box, Button, Flex, Heading } from "@chakra-ui/react";
 import Lottie from "react-lottie-player";
 import lottieJson from "./75968-pink-hair-girl-01.json";
-import {Github, LinkedIn} from '../../assets/Icons'
-import cv from './Klear_Resume.pdf'
+/* import {Github, LinkedIn} from '../../assets/Icons' */
+import cv from './KlearResume.pdf'
 
 const Home = () => {
   return (
